@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "crates/horizon-client/src/game/fov.rs": "92931c51437a9219b06722cbbfe2afb233ced3f75f1cefbf5361690aae0496b0"
+  },
+  "horizon_mixins_repository": "https://github.com/horizon-rust/horizon-mixins",
+  "horizon_revision": "d70fc3ec764b9a264a06d1e0761e258592e0a993",
+  "horizon_mixins_revision": "4342a0bfbe71d4d14185528d64e496d6022f16a1",
+  "game": "26.3",
+  "horizon_repository": "https://github.com/horizon-rust/horizon"
+}
