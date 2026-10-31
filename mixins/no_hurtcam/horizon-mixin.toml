@@ -1,0 +1,18 @@
+[mod]
+id = "no_hurtcam"
+version = "0.1.0"
+priority = 100
+
+[compatibility]
+horizon_revision = "d70fc3ec764b9a264a06d1e0761e258592e0a993"
+
+[[injection]]
+id = "disable-damage-camera-tilt"
+kind = "MODIFY_ARG"
+target = "horizon_client::game::Game<'_>::bob_matrix"
+selector = "bob_matrix"
+require = 1
+ordinal = 0
+argument = 1
+helper = "damage_tilt.rs"
+bindings = [{ name = "tilt", ty = "f64", value = "$value" }]
